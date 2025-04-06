@@ -18,3 +18,4 @@ BEGIN_JUCE_MODULE_DECLARATION
 
 #include "Source/ParamListener.h"
 #include "Source/ProcessorBase.h"
+#include "Source/MessageThreadChecker.h"

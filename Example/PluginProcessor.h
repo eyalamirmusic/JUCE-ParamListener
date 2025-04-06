@@ -2,6 +2,8 @@
 
 #include "Parameters.h"
 
+
+
 class NewPluginTemplateAudioProcessor : public PluginHelpers::ProcessorBase
 {
 public:

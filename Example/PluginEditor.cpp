@@ -5,7 +5,6 @@ NewPluginTemplateAudioProcessorEditor::NewPluginTemplateAudioProcessorEditor(
     NewPluginTemplateAudioProcessor& p)
     : AudioProcessorEditor(&p)
 {
-    addAndMakeVisible(editor);
     setSize(400, 300);
 }
 
@@ -16,5 +15,5 @@ void NewPluginTemplateAudioProcessorEditor::paint(juce::Graphics& g)
 
 void NewPluginTemplateAudioProcessorEditor::resized()
 {
-    editor.setBounds(getLocalBounds());
+
 }

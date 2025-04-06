@@ -10,6 +10,8 @@ void NewPluginTemplateAudioProcessor::processBlock(juce::AudioBuffer<float>& buf
                                                    juce::MidiBuffer& midiMessages)
 
 {
+    auto isMessageThread = EA::isThisTheMessageThread();
+
     juce::ignoreUnused(midiMessages);
 
     if (parameters.enable->get())
